@@ -36,15 +36,6 @@ p {
     @apply leading-[1.8];
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    @apply text-heading;
-}
-
 .container {
     @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
 }
