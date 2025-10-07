@@ -18,7 +18,7 @@ const Header = () => {
     </>
 
     return (
-        <header className='bg-white border-b border-[#E9E9E9]'>
+        <header className='bg-white border-b border-[#E9E9E9] fixed top-0 left-0 right-0'>
             <nav>
                 <div className='container'>
                     <div className="navbar py-4 px-0">
