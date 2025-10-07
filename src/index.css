@@ -18,9 +18,10 @@
     --color-heading: #001931;
     --color-body-text: #627382;
     --color-body-bg-2: #001931;
-    /* --color-gu: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%); */
     --color-linear-1: #632EE3;
     --color-linear-2: #9F62F2;
+    --color-green-app: #00D390;
+    --color-orange-app: #FF8811;
 }
 
 html,
