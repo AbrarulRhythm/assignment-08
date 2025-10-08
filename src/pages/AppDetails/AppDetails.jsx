@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 
 import icon_downloads from '../../assets/icon-downloads.png'
 import icon_ratings from '../../assets/icon-ratings.png'
 import icon_review from '../../assets/icon-review.png'
 import appLogo from '../../assets/demo-app (3).webp';
-import { Bar, BarChart, CartesianGrid, Line, LineChart, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { addToStoredApps, getStoredApp } from '../../utility/addToDB';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
 
@@ -14,8 +16,24 @@ const AppDetails = () => {
     const appData = useLoaderData();
     const singleApp = appData.find(app => app.id === appId);
     const { image, description, title, ratingAvg, downloads, companyName, reviews, size, ratings } = singleApp;
+    const [installApp, setInstallApp] = useState(false);
 
     const sortedRatings = [...ratings].reverse();
+
+    useEffect(() => {
+        const storedApps = getStoredApp();
+        const convertedStoredApps = storedApps.map(id => parseInt(id));
+        if (convertedStoredApps.includes(appId)) {
+            setInstallApp(true);
+        }
+    }, [appId]);
+
+    // Handle Install App
+    const handleInstall = () => {
+        addToStoredApps(id);
+        setInstallApp(true);
+        toast(`Yahoo ⚡!! ${title} Installed Successfully`)
+    }
 
     return (
         <section className='app-details pt-[87px]'>
@@ -48,7 +66,9 @@ const AppDetails = () => {
                                     <h2 className='text-4xl text-heading font-extrabold'>{reviews}</h2>
                                 </div>
                             </div>
-                            <button className='py-3 px-6 rounded-sm text-white bg-[#00D390] text-lg font-semibold cursor-pointer hover:bg-[#00af78] duration-300'>Install Now ({size} MB)</button>
+                            <button onClick={handleInstall} disabled={installApp} className={`py-3 px-6 rounded-sm ${installApp ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00af78] cursor-pointer'} text-white  text-lg font-semibold duration-300`}>
+                                {installApp ? 'Installed' : `Install Now (${size} MB)`}
+                            </button>
                         </div>
                     </div>
                     <hr className='border-0 border-t border-[#001931] opacity-20 my-10' />
