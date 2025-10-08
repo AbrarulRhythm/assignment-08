@@ -1,0 +1,1223 @@
+[
+    {
+        "image": "/images/app1.png",
+        "title": "PhotoSnap",
+        "companyName": "PixelForge Ltd.",
+        "id": 1,
+        "description": [
+            "PhotoSnap is a next-generation photo editing app designed for both creators and professionals who demand advanced yet accessible tools. Its AI-powered enhancement engine automatically adjusts lighting, tones, and color balance to make every photo pop instantly.",
+            "The app includes a vast collection of artistic filters, cinematic overlays, and texture effects, allowing you to personalize your photos effortlessly. Batch editing and smart background removal make your workflow faster than ever.",
+            "With its seamless cloud integration, PhotoSnap ensures your projects are always backed up and accessible across devices, redefining how mobile photo editing should feel."
+        ],
+        "size": 84,
+        "reviews": 1256,
+        "ratingAvg": 4.5,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 54
+            },
+            {
+                "name": "2 star",
+                "count": 83
+            },
+            {
+                "name": "3 star",
+                "count": 203
+            },
+            {
+                "name": "4 star",
+                "count": 562
+            },
+            {
+                "name": "5 star",
+                "count": 354
+            }
+        ]
+    },
+    {
+        "image": "/images/app2.png",
+        "title": "TaskFlow",
+        "companyName": "Nova Systems",
+        "id": 2,
+        "description": [
+            "TaskFlow redefines productivity with its sleek interface and advanced task management features. Whether you're managing personal goals or team projects, the platform ensures seamless organization with drag-and-drop boards and smart scheduling.",
+            "Integrated reminders, recurring tasks, and cross-device synchronization allow you to stay productive without missing a deadline. You can also track performance trends through dynamic visual reports.",
+            "Built with collaboration in mind, TaskFlow connects teams through shared boards and comments, making remote work more effective and transparent."
+        ],
+        "size": 62,
+        "reviews": 879,
+        "ratingAvg": 4.2,
+        "downloads": "870K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 42
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 180
+            },
+            {
+                "name": "4 star",
+                "count": 345
+            },
+            {
+                "name": "5 star",
+                "count": 242
+            }
+        ]
+    },
+    {
+        "image": "/images/app3.png",
+        "title": "BeatWave",
+        "companyName": "Soundify Studios",
+        "id": 3,
+        "description": [
+            "BeatWave brings a complete music studio to your phone, empowering musicians to compose, mix, and publish high-quality tracks effortlessly. It features real-time beat generation, live waveform editing, and advanced layering tools for professionals.",
+            "Whether you’re experimenting with rhythms or mastering your latest single, BeatWave’s smart tools make creativity flow naturally. Export your creations in lossless formats or share them instantly with the community.",
+            "With plugin support and frequent sound library updates, BeatWave continues to evolve as a creative hub for artists worldwide."
+        ],
+        "size": 97,
+        "reviews": 2301,
+        "ratingAvg": 4.7,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 290
+            },
+            {
+                "name": "4 star",
+                "count": 760
+            },
+            {
+                "name": "5 star",
+                "count": 1001
+            }
+        ]
+    },
+    {
+        "image": "/images/app4.png",
+        "title": "FitTrack",
+        "companyName": "HealthPro",
+        "id": 4,
+        "description": [
+            "FitTrack helps you take control of your health through smart workout tracking, calorie analysis, and personalized goal setting. Its AI-driven insights adapt to your body metrics, ensuring that every step you take moves you closer to your goals.",
+            "The app includes guided exercises, sleep tracking, hydration reminders, and a nutrition planner to balance your lifestyle. With detailed graphs, you can visualize your progress and stay motivated.",
+            "FitTrack transforms daily routines into long-term success with challenges, achievements, and community engagement that keeps fitness fun and consistent."
+        ],
+        "size": 55,
+        "reviews": 1950,
+        "ratingAvg": 4.3,
+        "downloads": "980K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 170
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 650
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "/images/app5.png",
+        "title": "NoteMate",
+        "companyName": "BrightApps Co.",
+        "id": 5,
+        "description": [
+            "NoteMate is the all-in-one note-taking and organization tool that keeps your thoughts structured and accessible. With advanced text formatting, cloud sync, and offline support, it’s perfect for students, professionals, and creators alike.",
+            "You can tag, color-code, and sort your notes, or attach images, audio, and files to capture ideas more completely. The voice note feature instantly converts speech into searchable text.",
+            "NoteMate’s focus on simplicity and speed makes it a reliable companion for journaling, brainstorming, and daily planning."
+        ],
+        "size": 40,
+        "reviews": 754,
+        "ratingAvg": 4.1,
+        "downloads": "600K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 88
+            },
+            {
+                "name": "3 star",
+                "count": 180
+            },
+            {
+                "name": "4 star",
+                "count": 250
+            },
+            {
+                "name": "5 star",
+                "count": 176
+            }
+        ]
+    },
+    {
+        "image": "/images/app6.png",
+        "title": "CookPal",
+        "companyName": "TasteLab Inc.",
+        "id": 6,
+        "description": [
+            "CookPal revolutionizes your kitchen with personalized recipe recommendations tailored to your ingredients and preferences. From quick snacks to gourmet dishes, it guides you step by step with easy-to-follow visuals and timers.",
+            "The app can generate shopping lists, estimate meal costs, and offer substitution suggestions if you’re missing an ingredient. Integrated nutrition tracking ensures every meal supports your health goals.",
+            "CookPal’s vibrant community allows users to share their creations, rate recipes, and discover inspiration from chefs around the world."
+        ],
+        "size": 70,
+        "reviews": 1350,
+        "ratingAvg": 4.6,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 85
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 525
+            }
+        ]
+    },
+    {
+        "image": "/images/app7.png",
+        "title": "Travelio",
+        "companyName": "WanderTech",
+        "id": 7,
+        "description": [
+            "Travelio makes travel planning effortless with smart recommendations, itinerary generation, and real-time weather integration. It suggests destinations based on your preferences and budget, making trip planning stress-free.",
+            "You can track expenses, book hotels, and even discover nearby attractions with augmented reality features. The built-in translator and offline maps make it a true global companion.",
+            "Whether it’s a weekend getaway or a world tour, Travelio ensures you experience more and worry less."
+        ],
+        "size": 78,
+        "reviews": 2109,
+        "ratingAvg": 4.4,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 98
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 330
+            },
+            {
+                "name": "4 star",
+                "count": 750
+            },
+            {
+                "name": "5 star",
+                "count": 811
+            }
+        ]
+    },
+    {
+        "image": "/images/app8.png",
+        "title": "Learnly",
+        "companyName": "Eduverse Labs",
+        "id": 8,
+        "description": [
+            "Learnly transforms learning into a personalized adventure. It features interactive lessons, quizzes, and challenges that adapt to your learning speed and style across a wide range of subjects.",
+            "The app supports offline mode and offers progress tracking through visual dashboards. Earn achievements as you master topics and connect with mentors in live sessions.",
+            "Designed for both students and professionals, Learnly empowers millions to upskill in a fun and engaging way."
+        ],
+        "size": 91,
+        "reviews": 3200,
+        "ratingAvg": 4.8,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 890
+            },
+            {
+                "name": "5 star",
+                "count": 1740
+            }
+        ]
+    },
+    {
+        "image": "/images/app9.png",
+        "title": "MindSpace",
+        "companyName": "CalmTech Inc.",
+        "id": 9,
+        "description": [
+            "MindSpace is a meditation and mental wellness app designed to reduce stress and improve focus. With guided sessions ranging from 5 minutes to an hour, you can build a consistent meditation practice regardless of your schedule.",
+            "It features breathing exercises, sleep stories, and mood tracking to enhance emotional well-being. Personalized recommendations adapt to your habits and progress, helping you achieve better mental clarity.",
+            "MindSpace also includes daily challenges, mindfulness reminders, and calming music to make meditation a natural and enjoyable part of your day."
+        ],
+        "size": 52,
+        "reviews": 1780,
+        "ratingAvg": 4.7,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 600
+            },
+            {
+                "name": "5 star",
+                "count": 770
+            }
+        ]
+    },
+    {
+        "image": "/images/app10.png",
+        "title": "ShopEase",
+        "companyName": "QuickBuy Ltd.",
+        "id": 10,
+        "description": [
+            "ShopEase is your ultimate shopping companion, bringing the best deals and personalized recommendations to your fingertips. Browse thousands of products, compare prices, and track discounts effortlessly.",
+            "The app features AI-driven suggestions based on your interests and past purchases. Secure payment options and real-time order tracking make shopping fast and worry-free.",
+            "With curated collections, flash sales, and a user-friendly interface, ShopEase turns shopping into a seamless and enjoyable experience for everyone."
+        ],
+        "size": 66,
+        "reviews": 2340,
+        "ratingAvg": 4.5,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 800
+            },
+            {
+                "name": "5 star",
+                "count": 1030
+            }
+        ]
+    },
+    {
+        "image": "/images/app11.png",
+        "title": "GameHub",
+        "companyName": "PlayWorks",
+        "id": 11,
+        "description": [
+            "GameHub is a one-stop platform for discovering, downloading, and playing mobile games of all genres. From action-packed adventures to strategic puzzles, it has something for every gamer.",
+            "It offers game recommendations, live leaderboards, and social features to connect with friends. Regular updates ensure you never miss trending games or exclusive events.",
+            "With a lightweight interface and smooth performance, GameHub makes gaming accessible and fun for everyone, whether casual or competitive."
+        ],
+        "size": 88,
+        "reviews": 4100,
+        "ratingAvg": 4.6,
+        "downloads": "3M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 450
+            },
+            {
+                "name": "4 star",
+                "count": 1300
+            },
+            {
+                "name": "5 star",
+                "count": 2070
+            }
+        ]
+    },
+    {
+        "image": "/images/app12.png",
+        "title": "StoryCraft",
+        "companyName": "Narrative Labs",
+        "id": 12,
+        "description": [
+            "StoryCraft is a creative writing app that allows you to craft stories, novels, and poems on the go. It offers intuitive text editing, idea prompts, and AI-based suggestions to spark creativity.",
+            "You can organize your chapters, track revisions, and export your work in various formats. Collaboration features enable co-authoring with friends or writing groups.",
+            "With built-in writing challenges and community feedback, StoryCraft turns writing into a productive and inspiring habit."
+        ],
+        "size": 72,
+        "reviews": 1450,
+        "ratingAvg": 4.4,
+        "downloads": "950K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 270
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 530
+            }
+        ]
+    },
+    {
+        "image": "/images/app13.png",
+        "title": "WeatherWise",
+        "companyName": "ClimeTech",
+        "id": 13,
+        "description": [
+            "WeatherWise delivers accurate, real-time weather updates to help you plan your day effectively. From hourly forecasts to 10-day predictions, it provides detailed information on temperature, precipitation, wind, and humidity.",
+            "Interactive radar maps, severe weather alerts, and pollen reports make sure you stay informed about changing conditions. The app’s clean interface ensures you get all the information at a glance.",
+            "WeatherWise also offers personalized notifications for your location and favorite destinations, making it a reliable companion for daily life and travel planning."
+        ],
+        "size": 48,
+        "reviews": 890,
+        "ratingAvg": 4.3,
+        "downloads": "720K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 360
+            },
+            {
+                "name": "5 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "image": "/images/app14.png",
+        "title": "BudgetBuddy",
+        "companyName": "FinSmart",
+        "id": 14,
+        "description": [
+            "BudgetBuddy is a personal finance and expense tracking app that helps you manage your money efficiently. You can set budgets, categorize spending, and track savings goals all in one place.",
+            "It provides detailed charts, reminders for bills, and predictive analytics for better financial planning. Bank account integration allows seamless synchronization of transactions.",
+            "With actionable insights, alerts, and visual reports, BudgetBuddy empowers you to make smarter financial decisions every day."
+        ],
+        "size": 60,
+        "reviews": 1520,
+        "ratingAvg": 4.6,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 320
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 540
+            }
+        ]
+    },
+    {
+        "image": "/images/app15.png",
+        "title": "FitFoodie",
+        "companyName": "HealthyBite Inc.",
+        "id": 15,
+        "description": [
+            "FitFoodie helps you plan healthy meals based on your diet goals and nutritional needs. It provides recipes, calorie tracking, and portion suggestions for balanced meals every day.",
+            "The app features personalized meal plans, grocery list generation, and reminders for hydration. Integration with fitness apps allows you to track calorie burn versus intake for optimal results.",
+            "FitFoodie encourages a sustainable, enjoyable approach to healthy living through daily tips, meal prep ideas, and tracking progress over time."
+        ],
+        "size": 70,
+        "reviews": 890,
+        "ratingAvg": 4.5,
+        "downloads": "950K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 55
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 370
+            },
+            {
+                "name": "5 star",
+                "count": 235
+            }
+        ]
+    },
+    {
+        "image": "/images/app16.png",
+        "title": "DailyJournal",
+        "companyName": "LifeDocs",
+        "id": 16,
+        "description": [
+            "DailyJournal is a versatile journaling app that helps you record your thoughts, track habits, and reflect on your personal growth. You can create text entries, add photos, and even record audio notes.",
+            "With customizable templates, reminders, and motivational quotes, it encourages consistent journaling habits. Cloud backup ensures your memories and notes are always safe and accessible.",
+            "The app also offers analytics and insights about your writing patterns, moods, and progress, turning journaling into a meaningful self-development tool."
+        ],
+        "size": 55,
+        "reviews": 1200,
+        "ratingAvg": 4.4,
+        "downloads": "880K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 480
+            }
+        ]
+    },
+    {
+        "image": "/images/app17.png",
+        "title": "PhotoMaster",
+        "companyName": "PixelWorks",
+        "id": 17,
+        "description": [
+            "PhotoMaster is a powerful photo editing app designed to help photographers and creators enhance their images with professional tools. It includes AI-based filters, advanced color grading, and precise cropping tools for perfect compositions.",
+            "You can layer effects, adjust brightness and contrast, and remove unwanted objects easily. Batch editing allows for efficient workflows, saving time while maintaining high-quality results.",
+            "With cloud sync and real-time previews, PhotoMaster ensures your creative projects are accessible anywhere and always up to date."
+        ],
+        "size": 92,
+        "reviews": 1450,
+        "ratingAvg": 4.7,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 310
+            },
+            {
+                "name": "4 star",
+                "count": 520
+            },
+            {
+                "name": "5 star",
+                "count": 460
+            }
+        ]
+    },
+    {
+        "image": "/images/app18.png",
+        "title": "GameArena",
+        "companyName": "PlayTech",
+        "id": 18,
+        "description": [
+            "GameArena is a comprehensive mobile gaming platform offering access to thousands of games across genres. From action-packed adventures to strategy puzzles, it provides a seamless experience for casual and competitive gamers alike.",
+            "With live leaderboards, friend challenges, and game recommendations based on your interests, GameArena keeps you engaged and connected. Regular updates bring fresh content and exclusive rewards.",
+            "Its lightweight design ensures smooth performance on all devices, making gaming accessible without compromise."
+        ],
+        "size": 85,
+        "reviews": 3200,
+        "ratingAvg": 4.6,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 110
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 420
+            },
+            {
+                "name": "4 star",
+                "count": 1050
+            },
+            {
+                "name": "5 star",
+                "count": 1470
+            }
+        ]
+    },
+    {
+        "image": "/images/app19.png",
+        "title": "MeditateNow",
+        "companyName": "CalmWorks",
+        "id": 19,
+        "description": [
+            "MeditateNow offers guided meditation, mindfulness exercises, and sleep aids to help you reduce stress and improve focus. Its tailored sessions range from 5 to 60 minutes to fit into any schedule.",
+            "Mood tracking, personalized challenges, and daily reminders ensure consistent practice. The app’s calming visuals and audio tracks create a relaxing environment for meditation.",
+            "Whether you are a beginner or experienced practitioner, MeditateNow provides insights and tips to make mindfulness an integral part of your daily routine."
+        ],
+        "size": 50,
+        "reviews": 1780,
+        "ratingAvg": 4.7,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 65
+            },
+            {
+                "name": "2 star",
+                "count": 85
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 600
+            },
+            {
+                "name": "5 star",
+                "count": 780
+            }
+        ]
+    },
+    {
+        "image": "/images/app20.png",
+        "title": "ShopSmart",
+        "companyName": "RetailPro",
+        "id": 20,
+        "description": [
+            "ShopSmart simplifies online shopping by providing personalized product recommendations, deals, and price comparisons. Browse top-rated products, track discounts, and get alerts for sales in real-time.",
+            "The app supports secure payments, multiple shipping options, and order tracking. Integration with loyalty programs makes it easy to save money and earn rewards.",
+            "With its intuitive interface and smart AI recommendations, ShopSmart ensures a smooth, enjoyable shopping experience every time."
+        ],
+        "size": 65,
+        "reviews": 2450,
+        "ratingAvg": 4.5,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 310
+            },
+            {
+                "name": "4 star",
+                "count": 800
+            },
+            {
+                "name": "5 star",
+                "count": 1130
+            }
+        ]
+    },
+    {
+        "image": "/images/app21.png",
+        "title": "LearnHub",
+        "companyName": "EduPro",
+        "id": 21,
+        "description": [
+            "LearnHub delivers high-quality learning resources for students and professionals. Interactive lessons, quizzes, and adaptive learning paths help users master subjects efficiently.",
+            "Offline mode ensures uninterrupted learning, and personalized analytics track progress over time. Tutors and mentors are available for live support and guidance.",
+            "With gamified achievements and a collaborative community, LearnHub motivates learners to acquire skills in an engaging and productive way."
+        ],
+        "size": 90,
+        "reviews": 3100,
+        "ratingAvg": 4.8,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 890
+            },
+            {
+                "name": "5 star",
+                "count": 1740
+            }
+        ]
+    },
+    {
+        "image": "/images/app22.png",
+        "title": "FitBuddy",
+        "companyName": "HealthTrack",
+        "id": 22,
+        "description": [
+            "FitBuddy helps users track workouts, monitor calories, and achieve fitness goals through personalized plans. Its AI-based suggestions adapt based on performance and activity levels.",
+            "The app integrates with wearables and smart devices for accurate data collection, providing detailed reports and motivational progress charts.",
+            "Daily challenges, goal tracking, and community engagement encourage consistency and make fitness enjoyable for beginners and athletes alike."
+        ],
+        "size": 60,
+        "reviews": 1900,
+        "ratingAvg": 4.6,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 600
+            },
+            {
+                "name": "5 star",
+                "count": 820
+            }
+        ]
+    },
+    {
+        "image": "/images/app23.png",
+        "title": "TravelMate",
+        "companyName": "GlobeTrotters",
+        "id": 23,
+        "description": [
+            "TravelMate makes planning trips easy by providing destination suggestions, itineraries, and travel tips. It integrates maps, weather forecasts, and expense trackers for complete trip management.",
+            "The app includes offline support, collaborative planning with friends, and curated recommendations for local attractions and dining.",
+            "TravelMate ensures stress-free travel by keeping all your trip information organized in one place, making journeys more enjoyable and memorable."
+        ],
+        "size": 75,
+        "reviews": 2150,
+        "ratingAvg": 4.5,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 85
+            },
+            {
+                "name": "2 star",
+                "count": 110
+            },
+            {
+                "name": "3 star",
+                "count": 280
+            },
+            {
+                "name": "4 star",
+                "count": 650
+            },
+            {
+                "name": "5 star",
+                "count": 1025
+            }
+        ]
+    },
+    {
+        "image": "/images/app24.png",
+        "title": "DailyPlanner",
+        "companyName": "OrganizeIt",
+        "id": 24,
+        "description": [
+            "DailyPlanner is a comprehensive task and habit tracker that helps users organize their day efficiently. You can schedule tasks, set reminders, and monitor progress with interactive charts.",
+            "Customizable templates and recurring task support allow you to maintain consistent productivity habits. The app also provides motivational quotes and insights based on your activity trends.",
+            "With cloud sync and collaboration features, DailyPlanner is perfect for individuals and teams looking to manage their time effectively."
+        ],
+        "size": 58,
+        "reviews": 1320,
+        "ratingAvg": 4.4,
+        "downloads": "880K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "/images/app25.png",
+        "title": "MusicFlow",
+        "companyName": "SoundWave",
+        "id": 25,
+        "description": [
+            "MusicFlow is a mobile music creation app that allows you to compose, mix, and edit tracks effortlessly. Its intuitive interface lets both beginners and professionals bring musical ideas to life quickly.",
+            "The app offers a wide library of instruments, samples, and loops, with real-time editing tools for precision. You can layer multiple tracks, adjust tempo, and apply effects seamlessly.",
+            "With cloud storage and sharing options, MusicFlow ensures your creations are always backed up and ready to share with collaborators or your audience."
+        ],
+        "size": 95,
+        "reviews": 1850,
+        "ratingAvg": 4.7,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 75
+            },
+            {
+                "name": "2 star",
+                "count": 95
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 550
+            },
+            {
+                "name": "5 star",
+                "count": 830
+            }
+        ]
+    },
+    {
+        "image": "/images/app26.png",
+        "title": "SmartNotes",
+        "companyName": "ThinkApps",
+        "id": 26,
+        "description": [
+            "SmartNotes is a versatile note-taking app that lets you capture ideas, organize information, and collaborate in real time. It supports text, images, audio, and PDF attachments.",
+            "With tags, folders, and search functionality, your notes are always easy to find. Cloud sync ensures your data is accessible on all devices, and offline mode keeps you productive anywhere.",
+            "Daily reminders, customizable templates, and collaborative features make SmartNotes perfect for students, professionals, and creative minds."
+        ],
+        "size": 48,
+        "reviews": 1420,
+        "ratingAvg": 4.5,
+        "downloads": "920K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 55
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 280
+            },
+            {
+                "name": "4 star",
+                "count": 460
+            },
+            {
+                "name": "5 star",
+                "count": 555
+            }
+        ]
+    },
+    {
+        "image": "/images/app27.png",
+        "title": "CookMate",
+        "companyName": "FoodLab",
+        "id": 27,
+        "description": [
+            "CookMate brings recipes, meal planning, and cooking guidance into one convenient app. From beginner-friendly meals to advanced dishes, you’ll find step-by-step instructions and ingredient substitutions.",
+            "You can create shopping lists, track pantry inventory, and set reminders for meal prep. Integration with diet and fitness apps helps you stay on track with health goals.",
+            "CookMate’s social features let you share recipes, discover trending dishes, and interact with a community of food enthusiasts."
+        ],
+        "size": 72,
+        "reviews": 1380,
+        "ratingAvg": 4.6,
+        "downloads": "950K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 65
+            },
+            {
+                "name": "2 star",
+                "count": 85
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 450
+            },
+            {
+                "name": "5 star",
+                "count": 480
+            }
+        ]
+    },
+    {
+        "image": "/images/app28.png",
+        "title": "TravelQuest",
+        "companyName": "WanderLust Inc.",
+        "id": 28,
+        "description": [
+            "TravelQuest is designed for adventurers looking to plan trips effortlessly. It provides itineraries, travel guides, maps, and local recommendations to make every journey smooth and memorable.",
+            "The app tracks expenses, offers offline maps, and connects you with fellow travelers. Smart suggestions ensure you discover hidden gems and plan trips according to your interests.",
+            "TravelQuest turns travel planning into a seamless experience, reducing stress and maximizing enjoyment on every adventure."
+        ],
+        "size": 80,
+        "reviews": 2100,
+        "ratingAvg": 4.5,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 650
+            },
+            {
+                "name": "5 star",
+                "count": 970
+            }
+        ]
+    },
+    {
+        "image": "/images/app29.png",
+        "title": "HabitTracker",
+        "companyName": "LifeSync",
+        "id": 29,
+        "description": [
+            "HabitTracker helps users build and maintain positive habits with personalized tracking, reminders, and analytics. Set daily goals, monitor streaks, and visualize progress with detailed charts.",
+            "Integration with calendars and notifications keeps you accountable. HabitTracker also offers challenges and community support to motivate consistency.",
+            "From fitness routines to productivity habits, HabitTracker turns behavior change into a manageable, rewarding process."
+        ],
+        "size": 50,
+        "reviews": 1240,
+        "ratingAvg": 4.6,
+        "downloads": "880K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 45
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 220
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 505
+            }
+        ]
+    },
+    {
+        "image": "/images/app30.png",
+        "title": "DailyFitness",
+        "companyName": "FitLife",
+        "id": 30,
+        "description": [
+            "DailyFitness provides personalized workout plans, exercise tracking, and progress analytics. From home workouts to gym routines, it adapts to your fitness level and goals.",
+            "The app includes video tutorials, challenges, and community leaderboards to keep you motivated. Integration with wearables ensures accurate activity tracking and calorie counting.",
+            "DailyFitness turns consistent exercise into a fun and sustainable lifestyle habit, helping users stay fit and healthy."
+        ],
+        "size": 65,
+        "reviews": 1980,
+        "ratingAvg": 4.7,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 95
+            },
+            {
+                "name": "3 star",
+                "count": 280
+            },
+            {
+                "name": "4 star",
+                "count": 580
+            },
+            {
+                "name": "5 star",
+                "count": 955
+            }
+        ]
+    },
+    {
+        "image": "/images/app31.png",
+        "title": "EduMaster",
+        "companyName": "LearnTech",
+        "id": 31,
+        "description": [
+            "EduMaster offers interactive courses, quizzes, and lessons for learners of all ages. Its adaptive learning algorithms recommend topics and exercises based on your progress and skill level.",
+            "Offline access, achievement badges, and community discussions enhance engagement. Tutors and mentors are available for live guidance and support.",
+            "EduMaster encourages continuous learning and skill development, making education accessible and enjoyable worldwide."
+        ],
+        "size": 90,
+        "reviews": 3200,
+        "ratingAvg": 4.8,
+        "downloads": "2M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 890
+            },
+            {
+                "name": "5 star",
+                "count": 1740
+            }
+        ]
+    },
+    {
+        "image": "/images/app32.png",
+        "title": "NoteWizard",
+        "companyName": "BrightIdeas",
+        "id": 32,
+        "description": [
+            "NoteWizard combines intelligent note-taking, organization, and collaboration tools in one app. Capture text, voice, and images, then categorize and search effortlessly.",
+            "With cloud sync and offline support, your notes are always accessible. Collaborative features allow teams and friends to work on shared notes in real time.",
+            "NoteWizard also offers templates, reminders, and AI suggestions, making it ideal for professionals, students, and creatives."
+        ],
+        "size": 55,
+        "reviews": 1450,
+        "ratingAvg": 4.5,
+        "downloads": "950K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 260
+            },
+            {
+                "name": "4 star",
+                "count": 450
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "/images/app33.png",
+        "title": "CookGenius",
+        "companyName": "FoodMasters",
+        "id": 33,
+        "description": [
+            "CookGenius is an advanced cooking assistant that provides recipes, step-by-step guides, and meal planning tools. Users can customize recipes based on dietary needs, ingredient availability, and taste preferences.",
+            "The app generates shopping lists, tracks pantry inventory, and suggests substitutions. Integration with fitness apps allows nutrition monitoring alongside meal preparation.",
+            "CookGenius encourages creativity in the kitchen while ensuring healthy, delicious meals every day."
+        ],
+        "size": 75,
+        "reviews": 1600,
+        "ratingAvg": 4.6,
+        "downloads": "1M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 65
+            },
+            {
+                "name": "2 star",
+                "count": 85
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 650
+            }
+        ]
+    }
+]

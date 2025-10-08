@@ -6,12 +6,17 @@ import Home from '../pages/Home/Home';
 import AppDetails from '../pages/AppDetails/AppDetails';
 import Apps from '../pages/Apps/Apps';
 import Installations from '../pages/Installations/Installations';
+import error404 from '../assets/error-404.png';
 
 export const router = createBrowserRouter([
     {
         path: '/',
         Component: Root,
-        errorElement: <ErrorPage></ErrorPage>,
+        errorElement: <ErrorPage
+            errorImage={error404}
+            title='Oops, page not found!'
+            subTitle='The page you are looking for is not available.'
+        ></ErrorPage>,
         children: [
             {
                 index: true,
@@ -20,17 +25,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'apps',
-                loader: () => fetch('/home-app.json'),
+                loader: () => fetch('/all-apps.json'),
                 Component: Apps
             },
             {
                 path: 'apps/:id',
-                loader: () => fetch('/home-app.json'),
+                loader: () => fetch('/all-apps.json'),
                 Component: AppDetails
             },
             {
                 path: 'installations',
-                loader: () => fetch('/home-app.json'),
+                loader: () => fetch('/all-apps.json'),
                 Component: Installations
             }
         ]

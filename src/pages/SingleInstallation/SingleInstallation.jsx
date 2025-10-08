@@ -3,7 +3,6 @@ import React from 'react';
 import appLogo from '../../assets/demo-app (3).webp';
 import { GoStarFill } from 'react-icons/go';
 import { FiDownload } from 'react-icons/fi';
-import { removeStoredApps } from '../../utility/addToDB';
 
 const SingleInstallation = ({ installedApp, onUninstall }) => {
 
