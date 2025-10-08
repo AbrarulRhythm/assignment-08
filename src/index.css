@@ -22,6 +22,18 @@
     --color-linear-2: #9F62F2;
     --color-green-app: #00D390;
     --color-orange-app: #FF8811;
+
+    --animate-rotate: rotate 1s linear infinite;
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0);
+        }
+
+        100% {
+            transform: rotate(360deg)
+        }
+    }
 }
 
 html,
@@ -43,6 +55,11 @@ p {
 
 .linear-gradient-1 {
     @apply text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2];
+}
+
+/* ========== Loading ========== */
+.rotate-logo {
+    @apply animate-rotate;
 }
 
 /* ========== Header ========== */
