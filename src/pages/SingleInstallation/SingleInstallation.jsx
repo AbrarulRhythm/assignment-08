@@ -3,10 +3,16 @@ import React from 'react';
 import appLogo from '../../assets/demo-app (3).webp';
 import { GoStarFill } from 'react-icons/go';
 import { FiDownload } from 'react-icons/fi';
+import { removeStoredApps } from '../../utility/addToDB';
 
-const SingleInstallation = ({ installedApp }) => {
+const SingleInstallation = ({ installedApp, onUninstall }) => {
 
-    const { image, title, downloads, ratingAvg, size } = installedApp;
+    const { id, image, title, downloads, ratingAvg, size } = installedApp;
+
+    // Handle UnInstall
+    const handleUninstall = () => {
+        onUninstall(id, title);
+    }
 
     return (
         <div className='w-full px-3 mb-4'>
@@ -29,7 +35,7 @@ const SingleInstallation = ({ installedApp }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='bg-[#00D390] hover:bg-[#00af78] duration-300 cursor-pointer text-base font-semibold py-3 px-6 rounded-sm text-white'>Uninstall</button>
+                    <button onClick={handleUninstall} className='bg-[#00D390] hover:bg-[#00af78] duration-300 cursor-pointer text-base font-semibold py-3 px-6 rounded-sm text-white'>Uninstall</button>
                 </div>
             </div>
         </div>

@@ -22,4 +22,12 @@ const addToStoredApps = (id) => {
     }
 }
 
-export { getStoredApp, addToStoredApps }
+const removeStoredApps = (id) => {
+
+    const storedApps = getStoredApp();
+    const filterdStoredApps = storedApps.filter(appId => parseInt(appId) !== parseInt(id));
+    const data = JSON.stringify(filterdStoredApps);
+    localStorage.setItem('apps', data);
+}
+
+export { getStoredApp, addToStoredApps, removeStoredApps }

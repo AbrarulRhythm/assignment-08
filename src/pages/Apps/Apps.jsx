@@ -75,7 +75,7 @@ const Apps = () => {
                             </div>
                         ) : filteredApps.length === 0 ? (
                             <div className='w-full text-center py-10'>
-                                <h1 className='text-5xl font-bold mb-8'>No Apps Found</h1>
+                                <h1 className='text-3xl md:text-5xl font-bold mb-8'>No Apps Found</h1>
                                 <button onClick={handleClearSearchTarm} className="inline-block font-semibold text-sm text-white bg-[linear-gradient(125.04deg,#632EE3_5.68%,#9F62F2_88.38%)] py-3 px-8 rounded-sm cursor-pointer">
                                     Show All
                                 </button>
