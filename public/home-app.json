@@ -1,6 +1,6 @@
 [
     {
-        "image": "/images/app1.png",
+        "image": "/images/app1.webp",
         "title": "PhotoSnap",
         "companyName": "PixelForge Ltd.",
         "id": 1,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "image": "/images/app2.png",
+        "image": "/images/app2.webp",
         "title": "TaskFlow",
         "companyName": "Nova Systems",
         "id": 2,
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "image": "/images/app3.png",
+        "image": "/images/app3.webp",
         "title": "BeatWave",
         "companyName": "Soundify Studios",
         "id": 3,
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "image": "/images/app4.png",
+        "image": "/images/app4.webp",
         "title": "FitTrack",
         "companyName": "HealthPro",
         "id": 4,
@@ -148,7 +148,7 @@
         ]
     },
     {
-        "image": "/images/app5.png",
+        "image": "/images/app5.webp",
         "title": "NoteMate",
         "companyName": "BrightApps Co.",
         "id": 5,
@@ -185,7 +185,7 @@
         ]
     },
     {
-        "image": "/images/app6.png",
+        "image": "/images/app6.webp",
         "title": "CookPal",
         "companyName": "TasteLab Inc.",
         "id": 6,
@@ -222,7 +222,7 @@
         ]
     },
     {
-        "image": "/images/app7.png",
+        "image": "/images/app7.webp",
         "title": "Travelio",
         "companyName": "WanderTech",
         "id": 7,
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "image": "/images/app8.png",
+        "image": "/images/app8.webp",
         "title": "Learnly",
         "companyName": "Eduverse Labs",
         "id": 8,

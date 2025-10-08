@@ -4,7 +4,6 @@ import { useLoaderData, useParams } from 'react-router';
 import icon_downloads from '../../assets/icon-downloads.png'
 import icon_ratings from '../../assets/icon-ratings.png'
 import icon_review from '../../assets/icon-review.png'
-import appLogo from '../../assets/demo-app (3).webp';
 import { Bar, BarChart, CartesianGrid, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { addToStoredApps, getStoredApp } from '../../utility/addToDB';
 import { toast } from 'react-toastify';
@@ -42,7 +41,7 @@ const AppDetails = () => {
                     <div className='flex flex-wrap -mx-3 lg:-mx-5'>
                         <div className='w-8/12 md:w-6/12 lg:w-3/12 px-3 lg:px-5 mb-6 lg:mb-0'>
                             <div className='bg-white rounded-sm p-8 md:py-7 md:px-10 shadow-lg h-full flex justify-center items-center'>
-                                <img className='w-full rounded-sm' src={appLogo} alt='App Icon' />
+                                <img className='w-full rounded-sm' src={image} alt='App Icon' />
                             </div>
                         </div>
                         <div className='w-full lg:w-9/12 px-3 lg:px-5'>

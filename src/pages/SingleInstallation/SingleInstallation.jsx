@@ -1,6 +1,4 @@
 import React from 'react';
-
-import appLogo from '../../assets/demo-app (3).webp';
 import { GoStarFill } from 'react-icons/go';
 import { FiDownload } from 'react-icons/fi';
 
@@ -18,7 +16,7 @@ const SingleInstallation = ({ installedApp, onUninstall }) => {
             <div className='bg-white p-4 rounded-sm flex flex-col md:flex-row gap-4 items-start md:items-center justify-between'>
                 <div className='flex items-center gap-4'>
                     <div>
-                        <img className='w-[80px] rounded-lg' src={appLogo} alt="" />
+                        <img className='w-[80px] rounded-lg' src={image} alt='app logo' />
                     </div>
                     <div>
                         <h2 className='text-lg md:text-xl font-medium mb-3 md:mb-4 text-heading'>{title}</h2>
