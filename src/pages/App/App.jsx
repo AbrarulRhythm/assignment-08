@@ -2,6 +2,7 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { TbDownload } from 'react-icons/tb';
 import demo from '../../assets/demo-app (3).webp'
+import { Link } from 'react-router';
 
 const App = ({ trendingApp }) => {
 
@@ -9,7 +10,7 @@ const App = ({ trendingApp }) => {
 
     return (
         <div className='w-full md:w-6/12 lg:w-3/12 px-3 mb-6'>
-            <a href="#">
+            <Link to={`/apps/${id}`}>
                 <div className='p-4 rounded-sm bg-white'>
                     <div className='mb-4'>
                         <img className='rounded-lg w-full' src={demo} alt='App Image' />
@@ -24,7 +25,7 @@ const App = ({ trendingApp }) => {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
     );
 };
