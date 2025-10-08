@@ -13,7 +13,7 @@ const Header = () => {
             <NavLink to='/apps'>Apps</NavLink>
         </li>
         <li>
-            <NavLink to='/installation'>Installation</NavLink>
+            <NavLink to='/installations'>Installation</NavLink>
         </li>
     </>
 

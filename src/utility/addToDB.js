@@ -22,6 +22,4 @@ const addToStoredApps = (id) => {
     }
 }
 
-// Yahoo ⚡!! Pomocat - Cute Pomodoro Timer Installed Successfully
-
 export { getStoredApp, addToStoredApps }
