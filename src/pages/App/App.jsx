@@ -9,9 +9,9 @@ const App = ({ trendingApp }) => {
     const { image, title, id, ratingAvg, downloads } = trendingApp;
 
     return (
-        <div className='w-full md:w-6/12 lg:w-3/12 px-3 mb-6'>
+        <div className='w-6/12 md:w-6/12 lg:w-3/12 px-3 mb-6'>
             <Link to={`/apps/${id}`}>
-                <div className='p-4 rounded-sm bg-white'>
+                <div className='p-4 rounded-sm bg-white hover:-translate-y-1 duration-300'>
                     <div className='mb-4'>
                         <img className='rounded-lg w-full' src={demo} alt='App Image' />
                     </div>

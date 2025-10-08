@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../assets/logo.png';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { FaGithub } from 'react-icons/fa';
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
     </>
 
     return (
-        <header className='bg-white border-b border-[#E9E9E9] fixed top-0 left-0 right-0'>
+        <header className='bg-white border-b border-[#E9E9E9] fixed top-0 left-0 right-0 z-50'>
             <nav>
                 <div className='container'>
                     <div className="navbar py-4 px-0">
@@ -33,10 +33,10 @@ const Header = () => {
                                     {links}
                                 </ul>
                             </div>
-                            <a href='/' className="flex items-center text-xl hover:opacity-65 duration-300" title='HERO.IO'>
+                            <Link to='/' className="flex items-center text-xl hover:opacity-65 duration-300" title='HERO.IO'>
                                 <img className='w-[40px] h-[40px] mr-2' src={Logo} alt='Header Logo' />
                                 <span className='text-base font-bold linear-gradient-1'>HERO.IO</span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal px-1">

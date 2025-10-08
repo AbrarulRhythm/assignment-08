@@ -1,265 +1,297 @@
 [
     {
-        "image": "/images/app1.png",
-        "title": "PhotoSnap",
-        "companyName": "PixelForge Ltd.",
+        "image": "https://example.com/app1.jpg",
+        "title": "PixelDraw",
+        "companyName": "Creative Pixel Labs",
         "id": 1,
-        "description": "PhotoSnap is a next-generation photo editing app designed for both beginners and professionals. It comes with an intuitive interface and AI-powered filters that automatically enhance your photos in seconds. You can adjust lighting, contrast, and tones with smart sliders, or create your own aesthetic presets. Whether you’re retouching portraits or editing landscapes, PhotoSnap gives you the tools to create stunning visuals effortlessly and share them instantly on social platforms.",
-        "size": 84,
-        "reviews": 1256,
-        "ratingAvg": 4.5,
-        "downloads": "1.2M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 54
-            },
-            {
-                "name": "2 star",
-                "count": 83
-            },
-            {
-                "name": "3 star",
-                "count": 203
-            },
-            {
-                "name": "4 star",
-                "count": 562
-            },
-            {
-                "name": "5 star",
-                "count": 354
-            }
-        ]
-    },
-    {
-        "image": "/images/app2.png",
-        "title": "TaskFlow",
-        "companyName": "Nova Systems",
-        "id": 2,
-        "description": "TaskFlow helps individuals and teams stay organized, plan projects, and track progress in real time. The app integrates a clean, distraction-free interface with smart task prioritization and seamless collaboration features. You can assign tasks, set reminders, and visualize deadlines using boards and timelines. Perfect for productivity enthusiasts, TaskFlow makes managing personal and professional projects more efficient, keeping your focus where it matters most.",
-        "size": 62,
-        "reviews": 879,
-        "ratingAvg": 4.2,
-        "downloads": "870K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 42
-            },
-            {
-                "name": "2 star",
-                "count": 70
-            },
-            {
-                "name": "3 star",
-                "count": 180
-            },
-            {
-                "name": "4 star",
-                "count": 345
-            },
-            {
-                "name": "5 star",
-                "count": 242
-            }
-        ]
-    },
-    {
-        "image": "/images/app3.png",
-        "title": "BeatWave",
-        "companyName": "Soundify Studios",
-        "id": 3,
-        "description": "BeatWave transforms your mobile device into a full-fledged music studio. Whether you’re a beginner or a professional DJ, this app lets you compose, mix, and remix tracks using intuitive tools and real-time beat generation. It features a massive library of sound effects, instruments, and loops, allowing endless creativity. Share your creations instantly with friends or upload them directly to streaming platforms — BeatWave is music production reimagined for the modern creator.",
-        "size": 97,
-        "reviews": 2301,
-        "ratingAvg": 4.7,
-        "downloads": "2.1M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 100
-            },
-            {
-                "name": "2 star",
-                "count": 150
-            },
-            {
-                "name": "3 star",
-                "count": 290
-            },
-            {
-                "name": "4 star",
-                "count": 760
-            },
-            {
-                "name": "5 star",
-                "count": 1001
-            }
-        ]
-    },
-    {
-        "image": "/images/app4.png",
-        "title": "FitTrack",
-        "companyName": "HealthPro",
-        "id": 4,
-        "description": "FitTrack is your personal health companion designed to help you stay motivated and reach your fitness goals. It tracks workouts, steps, calories, and heart rate while giving personalized recommendations based on your daily habits. You can log your meals, monitor sleep patterns, and visualize progress with beautiful charts. FitTrack also syncs with your favorite wearables to ensure that every movement counts. Stay consistent, stay healthy, and make fitness a lifestyle.",
-        "size": 55,
-        "reviews": 1950,
-        "ratingAvg": 4.3,
-        "downloads": "980K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 130
-            },
-            {
-                "name": "2 star",
-                "count": 170
-            },
-            {
-                "name": "3 star",
-                "count": 400
-            },
-            {
-                "name": "4 star",
-                "count": 650
-            },
-            {
-                "name": "5 star",
-                "count": 600
-            }
-        ]
-    },
-    {
-        "image": "/images/app5.png",
-        "title": "NoteMate",
-        "companyName": "BrightApps Co.",
-        "id": 5,
-        "description": "NoteMate is a lightweight yet powerful note-taking app that helps you capture ideas on the go. Whether it’s a quick thought, a meeting summary, or a full study note, NoteMate offers an elegant interface that keeps everything organized. With cloud syncing, offline access, and voice recording, it adapts to your workflow. You can categorize notes, add tags, and even collaborate with friends or colleagues. Simplicity meets power — that’s what makes NoteMate a must-have tool for thinkers.",
-        "size": 40,
-        "reviews": 754,
-        "ratingAvg": 4.1,
-        "downloads": "600K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 60
-            },
-            {
-                "name": "2 star",
-                "count": 88
-            },
-            {
-                "name": "3 star",
-                "count": 180
-            },
-            {
-                "name": "4 star",
-                "count": 250
-            },
-            {
-                "name": "5 star",
-                "count": 176
-            }
-        ]
-    },
-    {
-        "image": "/images/app6.png",
-        "title": "CookPal",
-        "companyName": "TasteLab Inc.",
-        "id": 6,
-        "description": "CookPal is your all-in-one kitchen companion, offering thousands of step-by-step recipes curated by chefs and home cooks worldwide. It helps you discover new cuisines, manage grocery lists, and even track nutritional information. The app’s smart suggestion system tailors meal ideas based on your dietary preferences and available ingredients. Whether you’re a beginner or an expert, CookPal makes every meal an enjoyable and easy-to-follow experience.",
-        "size": 70,
-        "reviews": 1350,
+        "description": [
+            "PixelDraw is a professional-grade digital art application built for creators who want to push their imagination to the next level. Its smooth and intuitive interface allows you to sketch, paint, and design seamlessly across devices. Every tool is crafted to give artists a sense of control and precision, making the creative process both enjoyable and efficient.",
+            "From concept art to comic illustrations, PixelDraw provides multiple brush types, layer systems, and color blending modes. You can customize every aspect of your workspace and export high-quality files without losing resolution. The performance is optimized for speed, ensuring zero lag even in large projects.",
+            "PixelDraw receives regular feature updates, including AI-based color correction and automatic shading tools. It’s designed for artists who want both simplicity and power in one creative environment."
+        ],
+        "size": 48,
+        "reviews": 15200,
         "ratingAvg": 4.6,
-        "downloads": "1.3M",
+        "downloads": "12M",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 85
+                "count": 200
             },
             {
                 "name": "2 star",
-                "count": 90
+                "count": 350
             },
             {
                 "name": "3 star",
-                "count": 250
+                "count": 1200
             },
             {
                 "name": "4 star",
-                "count": 400
+                "count": 4200
             },
             {
                 "name": "5 star",
-                "count": 525
+                "count": 8250
             }
         ]
     },
     {
-        "image": "/images/app7.png",
-        "title": "Travelio",
-        "companyName": "WanderTech",
-        "id": 7,
-        "description": "Travelio makes travel planning effortless and inspiring. Explore destinations, read traveler reviews, and build your dream itinerary with just a few taps. From budget tracking to real-time weather updates, everything you need for your trip is organized in one place. Travelio also connects you with local guides and fellow travelers to share tips and stories. Whether it’s your first solo trip or a family vacation, Travelio ensures you travel smarter, safer, and happier.",
-        "size": 78,
-        "reviews": 2109,
+        "image": "https://example.com/app2.jpg",
+        "title": "NoteFlow",
+        "companyName": "SoftCraft Studios",
+        "id": 2,
+        "description": [
+            "NoteFlow is an intelligent note-taking and productivity management app that helps you capture ideas instantly and stay organized. Whether you’re in a meeting, class, or brainstorming session, NoteFlow makes it effortless to jot down notes using text, voice, or handwriting input.",
+            "You can create folders, add reminders, and even attach media files for visual references. The app’s cross-platform synchronization ensures your notes are always updated across all devices in real-time. Offline mode lets you continue working even without an internet connection, and your data syncs automatically when you reconnect.",
+            "With its elegant interface, customizable themes, and clutter-free design, NoteFlow provides the perfect environment for deep focus and creative thinking. It’s more than just a note app — it’s your digital workspace."
+        ],
+        "size": 32,
+        "reviews": 9800,
         "ratingAvg": 4.4,
-        "downloads": "1.8M",
+        "downloads": "500K",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 98
-            },
-            {
-                "name": "2 star",
                 "count": 120
             },
             {
+                "name": "2 star",
+                "count": 210
+            },
+            {
                 "name": "3 star",
-                "count": 330
+                "count": 800
             },
             {
                 "name": "4 star",
-                "count": 750
+                "count": 3400
             },
             {
                 "name": "5 star",
-                "count": 811
+                "count": 5270
             }
         ]
     },
     {
-        "image": "/images/app8.png",
-        "title": "Learnly",
-        "companyName": "Eduverse Labs",
-        "id": 8,
-        "description": "Learnly is a next-level e-learning platform that makes studying more interactive and engaging. It offers video lessons, quizzes, flashcards, and real-time progress tracking. With AI-based recommendations, it curates personalized learning paths for students of all ages. Teachers can create and share custom courses, while learners can connect with peers and mentors. Whether you’re preparing for exams or learning new skills, Learnly brings education to your fingertips with simplicity and fun.",
-        "size": 91,
-        "reviews": 3200,
-        "ratingAvg": 4.8,
-        "downloads": "2.5M",
+        "image": "https://example.com/app3.jpg",
+        "title": "FitTrack Pro",
+        "companyName": "Wellness AI",
+        "id": 3,
+        "description": [
+            "FitTrack Pro is your personal fitness companion designed to help you live a healthier, more active lifestyle. The app uses advanced AI algorithms to monitor your workouts, track calories, and analyze your daily performance. Whether you’re walking, running, or lifting weights, FitTrack Pro automatically detects your activity and provides accurate data insights.",
+            "It includes detailed progress charts, goal tracking, and weekly summaries that help you stay motivated. You can customize your workout plans and receive smart suggestions based on your habits and physical goals. Integration with smartwatches and heart-rate sensors makes it even more powerful.",
+            "With its motivational reminders and adaptive AI suggestions, FitTrack Pro doesn’t just track your fitness — it helps you transform your lifestyle one step at a time."
+        ],
+        "size": 60,
+        "reviews": 20100,
+        "ratingAvg": 4.7,
+        "downloads": "5M",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 130
+                "count": 180
             },
             {
                 "name": "2 star",
-                "count": 140
+                "count": 270
             },
             {
                 "name": "3 star",
-                "count": 300
+                "count": 950
             },
             {
                 "name": "4 star",
-                "count": 890
+                "count": 5200
             },
             {
                 "name": "5 star",
-                "count": 1740
+                "count": 13500
+            }
+        ]
+    },
+    {
+        "image": "https://example.com/app4.jpg",
+        "title": "LearnEase",
+        "companyName": "EduTech Global",
+        "id": 4,
+        "description": [
+            "LearnEase is an all-in-one learning platform that simplifies education through short, interactive lessons. It’s built for students of all ages who want to learn faster and smarter. With subjects ranging from science and math to coding and design, LearnEase gives you access to hundreds of high-quality video tutorials.",
+            "Every lesson is taught by experienced instructors who make complex concepts easy to understand. You can test your understanding with built-in quizzes and track your learning progress through detailed analytics.",
+            "With offline download support, you can continue learning anywhere, anytime. LearnEase is not just an app — it’s your personal classroom in your pocket."
+        ],
+        "size": 75,
+        "reviews": 31000,
+        "ratingAvg": 4.8,
+        "downloads": "20M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 340
+            },
+            {
+                "name": "2 star",
+                "count": 460
+            },
+            {
+                "name": "3 star",
+                "count": 1800
+            },
+            {
+                "name": "4 star",
+                "count": 6400
+            },
+            {
+                "name": "5 star",
+                "count": 22000
+            }
+        ]
+    },
+    {
+        "image": "https://example.com/app5.jpg",
+        "title": "SoundBeats",
+        "companyName": "WaveLab Music",
+        "id": 5,
+        "description": [
+            "SoundBeats is a premium music streaming app that delivers crystal-clear sound and personalized playlists tailored to your taste. Whether you love pop, jazz, rock, or lo-fi, SoundBeats curates music that matches your mood.",
+            "It features AI-powered recommendations, an offline mode, and handcrafted mixes by professional DJs. The app’s sound engine ensures lossless audio quality for a studio-grade listening experience.",
+            "With millions of songs updated daily, SoundBeats makes discovering new tracks effortless. It’s your all-in-one platform for listening, sharing, and exploring music that moves you."
+        ],
+        "size": 58,
+        "reviews": 87500,
+        "ratingAvg": 4.5,
+        "downloads": "9M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1300
+            },
+            {
+                "name": "3 star",
+                "count": 5200
+            },
+            {
+                "name": "4 star",
+                "count": 18200
+            },
+            {
+                "name": "5 star",
+                "count": 62300
+            }
+        ]
+    },
+    {
+        "image": "https://example.com/app6.jpg",
+        "title": "PhotoTune",
+        "companyName": "SnapVision Studio",
+        "id": 6,
+        "description": [
+            "PhotoTune is a next-generation photo editor powered by artificial intelligence. It enhances your photos automatically while keeping them natural and detailed. Whether it’s a portrait, landscape, or product image, PhotoTune gives every shot a professional finish.",
+            "The app includes one-tap filters, background remover, HDR tone mapping, and skin-smoothing tools. You can manually fine-tune brightness, saturation, and contrast for full creative control.",
+            "PhotoTune combines the simplicity of one-click editing with advanced AI features that adapt to your photo’s lighting and color balance, ensuring stunning results every time."
+        ],
+        "size": 70,
+        "reviews": 42000,
+        "ratingAvg": 4.6,
+        "downloads": "11M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 950
+            },
+            {
+                "name": "3 star",
+                "count": 3400
+            },
+            {
+                "name": "4 star",
+                "count": 9800
+            },
+            {
+                "name": "5 star",
+                "count": 27250
+            }
+        ]
+    },
+    {
+        "image": "https://example.com/app7.jpg",
+        "title": "TaskMate",
+        "companyName": "Boostify Tech",
+        "id": 7,
+        "description": [
+            "TaskMate is a smart productivity and task management app that helps you stay organized, motivated, and focused. It’s designed for individuals and teams who want to manage tasks efficiently without clutter.",
+            "You can create task lists, assign priorities, and track progress through visually appealing dashboards. Its smart reminders make sure you never miss deadlines again.",
+            "TaskMate supports cloud synchronization, collaboration tools, and progress analytics, helping you achieve more with less effort. It’s your all-in-one companion for getting things done."
+        ],
+        "size": 36,
+        "reviews": 15300,
+        "ratingAvg": 4.3,
+        "downloads": "250K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 190
+            },
+            {
+                "name": "2 star",
+                "count": 280
+            },
+            {
+                "name": "3 star",
+                "count": 1200
+            },
+            {
+                "name": "4 star",
+                "count": 4700
+            },
+            {
+                "name": "5 star",
+                "count": 8930
+            }
+        ]
+    },
+    {
+        "image": "https://example.com/app8.jpg",
+        "title": "Travelify",
+        "companyName": "Global Wander Labs",
+        "id": 8,
+        "description": [
+            "Travelify is a complete travel planner designed to make your trips smoother and stress-free. It brings together everything you need — from flight suggestions and hotel bookings to budget tracking and itinerary management.",
+            "The app recommends destinations based on your preferences, helps you find affordable options, and even provides local guides and offline maps. You can collaborate with friends to plan group trips and share expenses easily.",
+            "Travelify makes every journey smarter with real-time updates, weather forecasts, and safety tips, ensuring you travel with confidence wherever you go."
+        ],
+        "size": 64,
+        "reviews": 18800,
+        "ratingAvg": 4.6,
+        "downloads": "3M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 230
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 1500
+            },
+            {
+                "name": "4 star",
+                "count": 5800
+            },
+            {
+                "name": "5 star",
+                "count": 10800
             }
         ]
     }

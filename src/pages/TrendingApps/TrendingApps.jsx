@@ -1,5 +1,6 @@
 import React from 'react';
 import App from '../App/App';
+import { Link } from 'react-router';
 
 const TrendingApps = ({ trendingAppsData }) => {
     return (
@@ -20,7 +21,7 @@ const TrendingApps = ({ trendingAppsData }) => {
                     }
                 </div>
                 <div className='text-center mt-4'>
-                    <a href='#' className="inline-block font-semibold text-white bg-[linear-gradient(125.04deg,#632EE3_5.68%,#9F62F2_88.38%)] py-[14px] px-10 rounded-sm">Show All</a>
+                    <Link to='/apps' className="inline-block font-semibold text-white bg-[linear-gradient(125.04deg,#632EE3_5.68%,#9F62F2_88.38%)] py-[14px] px-10 rounded-sm">Show All</Link>
                 </div>
             </div>
         </section>
