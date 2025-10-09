@@ -27,22 +27,6 @@ const Installations = () => {
         toast(`🗑️ ${title} un-installed from your Device`);
     }
 
-    // const convertDownloadsToNumber = (downloads) => {
-    //     let number = 0;
-
-    //     if (downloads.endsWith('M')) {
-    //         number = parseInt(downloads.slice(0, -1)) * 1000000;
-    //     }
-    //     else if (downloads.endsWith('K')) {
-    //         number = parseInt(downloads.slice(0, -1)) * 1000;
-    //     }
-    //     else {
-    //         number = parseInt(downloads);
-    //     }
-
-    //     return number;
-    // }
-
     const handleSort = (type) => {
         setSort(type);
 
