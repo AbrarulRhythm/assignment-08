@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router';
 
-const ErrorPage = ({ errorImage, title, subTitle }) => {
+const ErrorPage = ({ errorImage, title, subTitle, footer }) => {
     return (
         <>
             <Header></Header>
@@ -19,7 +19,9 @@ const ErrorPage = ({ errorImage, title, subTitle }) => {
                     </div>
                 </section>
             </main>
-            <Footer></Footer>
+            <div className={`${footer ? footer : 'block'}`}>
+                <Footer></Footer>
+            </div>
         </>
     );
 };

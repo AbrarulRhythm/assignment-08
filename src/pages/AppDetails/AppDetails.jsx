@@ -39,6 +39,7 @@ const AppDetails = () => {
                 errorImage={appError}
                 title='OPPS!! APP NOT FOUND'
                 subTitle='The App you are requesting is not found on our system.  please try another apps'
+                footer='hidden'
             ></ErrorPage>
         );
     }
@@ -64,7 +65,7 @@ const AppDetails = () => {
                                 <div className='w-full md:w-[150px]'>
                                     <img className='w-[40px] h-[40px] mb-2' src={icon_downloads} alt='icon_downloads' />
                                     <span className='mb-2 inline-block'>Downloads</span>
-                                    <h2 className='text-4xl text-heading font-extrabold'>{downloads}</h2>
+                                    <h2 className='text-4xl text-heading font-extrabold'>{downloads}M</h2>
                                 </div>
                                 <div className='w-full md:w-[150px]'>
                                     <img className='w-[40px] h-[40px] mb-2' src={icon_ratings} alt='icon_ratings' />
