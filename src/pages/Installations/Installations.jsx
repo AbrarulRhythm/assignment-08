@@ -27,40 +27,32 @@ const Installations = () => {
         toast(`🗑️ ${title} un-installed from your Device`);
     }
 
-    const convertDownloadsToNumber = (downloads) => {
-        let number = 0;
+    // const convertDownloadsToNumber = (downloads) => {
+    //     let number = 0;
 
-        if (downloads.endsWith('M')) {
-            number = parseInt(downloads.slice(0, -1)) * 1000000;
-        }
-        else if (downloads.endsWith('K')) {
-            number = parseInt(downloads.slice(0, -1)) * 1000;
-        }
-        else {
-            number = parseInt(downloads);
-        }
+    //     if (downloads.endsWith('M')) {
+    //         number = parseInt(downloads.slice(0, -1)) * 1000000;
+    //     }
+    //     else if (downloads.endsWith('K')) {
+    //         number = parseInt(downloads.slice(0, -1)) * 1000;
+    //     }
+    //     else {
+    //         number = parseInt(downloads);
+    //     }
 
-        return number;
-    }
+    //     return number;
+    // }
 
     const handleSort = (type) => {
         setSort(type);
 
         if (type === 'Low-High') {
-            const sotredByLowHigh = [...installedApps].sort((a, b) => {
-                const aDownloads = convertDownloadsToNumber(a.downloads);
-                const bDownloads = convertDownloadsToNumber(b.downloads);
-                return aDownloads - bDownloads;
-            });
+            const sotredByLowHigh = [...installedApps].sort((a, b) => a.downloads - b.downloads);
             setInstalledApps(sotredByLowHigh);
         }
 
         if (type === 'High-Low') {
-            const sotredByLowHigh = [...installedApps].sort((a, b) => {
-                const aDownloads = convertDownloadsToNumber(a.downloads);
-                const bDownloads = convertDownloadsToNumber(b.downloads);
-                return bDownloads - aDownloads;
-            });
+            const sotredByLowHigh = [...installedApps].sort((a, b) => b.downloads - a.downloads);
             setInstalledApps(sotredByLowHigh);
         }
     }

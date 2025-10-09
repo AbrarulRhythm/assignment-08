@@ -22,7 +22,7 @@ const SingleInstallation = ({ installedApp, onUninstall }) => {
                         <h2 className='text-lg md:text-xl font-medium mb-3 md:mb-4 text-heading'>{title}</h2>
                         <div className='flex items-center gap-4'>
                             <div className='text-base text-[#00D390] font-medium flex items-center gap-1'>
-                                <FiDownload /> {downloads}
+                                <FiDownload /> {downloads}M
                             </div>
                             <div className='text-base text-[#FF8811] font-medium flex items-center gap-1'>
                                 <GoStarFill /> {ratingAvg}

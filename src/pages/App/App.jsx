@@ -17,7 +17,7 @@ const App = ({ trendingApp }) => {
                     <h3 className='text-xl font-medium mb-4 text-heading'>{title}</h3>
                     <div className='flex justify-between'>
                         <div className='flex items-center text-base gap-1 py-1.5 px-2.5 rounded-sm text-green-app bg-[#F1F5E8]'>
-                            <TbDownload /> {downloads}
+                            <TbDownload /> {downloads}M
                         </div>
                         <div className='flex items-center text-base gap-1 py-1.5 px-2.5 rounded-sm text-orange-app bg-[#FFF0E1]'>
                             <FaStar /> {ratingAvg}
