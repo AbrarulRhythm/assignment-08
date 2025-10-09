@@ -7,6 +7,8 @@ import icon_review from '../../assets/icon-review.png'
 import { Bar, BarChart, CartesianGrid, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { addToStoredApps, getStoredApp } from '../../utility/addToDB';
 import { toast } from 'react-toastify';
+import ErrorPage from '../ErrorPage/ErrorPage';
+import appError from '../../assets/App-Error.png';
 
 const AppDetails = () => {
 
@@ -14,10 +16,7 @@ const AppDetails = () => {
     const appId = parseInt(id);
     const appData = useLoaderData();
     const singleApp = appData.find(app => app.id === appId);
-    const { image, description, title, ratingAvg, downloads, companyName, reviews, size, ratings } = singleApp;
     const [installApp, setInstallApp] = useState(false);
-
-    const sortedRatings = [...ratings].reverse();
 
     useEffect(() => {
         const storedApps = getStoredApp();
@@ -33,6 +32,19 @@ const AppDetails = () => {
         setInstallApp(true);
         toast(`Yahoo ⚡!! ${title} Installed Successfully`)
     }
+
+    if (!singleApp) {
+        return (
+            <ErrorPage
+                errorImage={appError}
+                title='OPPS!! APP NOT FOUND'
+                subTitle='The App you are requesting is not found on our system.  please try another apps'
+            ></ErrorPage>
+        );
+    }
+
+    const { image, description, title, ratingAvg, downloads, companyName, reviews, size, ratings } = singleApp;
+    const sortedRatings = [...ratings].reverse();
 
     return (
         <section className='app-details pt-[87px]'>
