@@ -18,6 +18,8 @@
 
 # Technologies and packages used
 - [**React**](https://react.dev/) – For building the user interface.
+- [**Vite**](https://vite.dev/) – For fast development and build tooling.
+- [**npm**](https://www.npmjs.com/) – For managing packages and dependencies.
 - [**Tailwind CSS**](https://tailwindcss.com/) – For utility-first styling.
 - [**DaisyUI**](https://daisyui.com/) – For ready-to-use UI components.
 - [**React Router**](https://reactrouter.com/)– For client-side routing.
