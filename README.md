@@ -1,4 +1,4 @@
-# ASSIGNMENT-008 (HERO.IO)
+# ASSIGNMENT-008 (Hero Apps — Productivity App Development Company)
 
 ### 🌐 [Click Here To See The Demo](https://abrarulrhythm.github.io/assignment-06/)
 <br>

@@ -56,7 +56,7 @@ const Apps = () => {
                 ></TextBanner>
 
                 <div className='flex flex-col lg:flex-row items-start lg:items-center gap-4 justify-between mb-6'>
-                    <h3 className='text-2xl font-semibold text-heading'>({apps.length}) Apps Found</h3>
+                    <h3 className='text-2xl font-semibold text-heading'>({filteredApps.length}) Apps Found</h3>
                     <div className='relative flex items-center w-full lg:w-auto'>
                         <IoSearchOutline className='text-[22px] absolute left-4' />
                         <input onChange={handleSearch} value={searchTerm} className='pl-11 px-4 py-3 rounded-sm border border-[#D2D2D2] w-[400px] outline-0 focus:border-[#632EE3]' type='text' placeholder='Search Apps' />
