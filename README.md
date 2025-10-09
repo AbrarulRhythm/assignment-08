@@ -1,6 +1,6 @@
 # ASSIGNMENT-008 (Hero Apps — Productivity App Development Company)
 
-### 🌐 [Click Here To See The Demo](https://abrarulrhythm.github.io/assignment-06/)
+### 🌐 [Click Here To See The Demo](https://abrarulrhythm-assignment-08.netlify.app/)
 <br>
 
 <img width="1200" height="734" alt="Image" src="https://github.com/user-attachments/assets/f9fec077-84eb-4d67-9614-7093d0ffde63" />
