@@ -42,7 +42,7 @@ body {
 }
 
 body {
-    @apply bg-body-bg font-Inter text-body-text;
+    @apply bg-body-bg font-Inter text-body-text overflow-x-hidden;
 }
 
 p {
