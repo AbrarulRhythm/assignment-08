@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const TrendingApps = ({ trendingAppsData }) => {
     return (
-        <section className='trending-apps py-20'>
+        <section className='trending-apps pt-20'>
             <div className='container'>
                 <div className='text-center mb-10'>
                     <h1 className='text-[48px] font-bold text-heading mb-3'>Trending Apps</h1>
